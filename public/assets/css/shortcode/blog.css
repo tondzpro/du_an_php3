@@ -1,0 +1,124 @@
+/* -----------------------------------
+Template:  Galardo
+
+NOTE: This is blog style file. All blog related style included in this file.
+
+--------------------------------------*/
+/* ------------Home-1------------ */
+.blog-wrapper{}
+.blog-img{
+	position:relative;
+}
+.blog-img a{
+	display: block;
+	position:relative;
+}
+.blog-information {
+	background: #ffffff none repeat scroll 0 0;
+	bottom: 10px;
+	display: block;
+	height: 70px;
+	left: 10px;
+	padding: 0 15px;
+	position: absolute;
+	text-align: center;
+	width: 70px;
+}
+.blog-information span{
+	display: block;
+	line-height: 35px;
+	transition: all 300ms ease 0s;	
+}
+.blog-information span.date-form{
+	border-bottom: 1px solid #e2e2e2;
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;	
+}
+.blog-information span.month-form{
+	color: #666666;
+	font-size: 13px;	
+}
+.blog-wrapper:hover .blog-information{
+    background: #069eea none repeat scroll 0 0;	
+}
+.blog-wrapper:hover .blog-information span{
+	color:#fff;
+}
+.blog-content .blog-meta{
+	color: #666;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 17px;
+	margin-top:12px;	
+}
+.blog-content a h3{
+	color: #333333;
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 10px;
+	text-transform: uppercase;
+	transition:all .3s;  
+}
+.blog-content a h3:hover{
+	color:#069EEA;
+}
+.blog-content p{
+	font-weight: 300;
+	line-height: 22px;
+	margin-bottom:0;
+}
+/* ------------Home-2------------ */
+.blog-area-2 {
+  background: rgba(0, 0, 0, 0) url("assets/images/blog/bg-blog.html") no-repeat scroll center center / cover ;
+}
+.blog-wrapper {
+  background: #ffffff none repeat scroll 0 0;
+}
+.blog-content {
+  padding: 0 20px 20px;
+}
+.blog-area-2 .section-title-2 h3{
+	color:#fff;
+}
+.blog-area-2 .blog-content {
+  padding-top: 40px;
+  text-align: center;
+}
+.blog-area-2 .blog-information {
+  bottom: -30px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+}
+.blog-area-2 .blog-meta {
+    display: none;
+}
+.blog-area-2 .blog-information {
+    background: #069eea none repeat scroll 0 0;
+}
+.blog-area-2 .blog-information span {
+    color: #ffffff;
+}
+.blog-area-2 .blog-content a {
+  display: block;
+  font-size: 12px;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+.blog-area-2 .blog-content a:hover{
+	color:#666;
+}
+/* ------------Home-4------------ */
+.blog-area-4 .blog-wrapper:hover .blog-information {
+  background: #D61D22;
+}
+.blog-area-4 .blog-content a h3:hover {
+  color: #D61D22;
+}
+
+
+
+
+

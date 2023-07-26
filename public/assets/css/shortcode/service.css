@@ -1,0 +1,111 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is service style file. All service related style included in this file.
+
+--------------------------------------*/
+/* ------------Home-2------------ */
+.service-area-2{}
+.single-service-2{	
+	position:relative;
+	overflow:hidden; 
+}
+.service-img{
+}
+.service-img img{
+	transition:all .4s;
+}
+.single-service-2:hover .service-img img{
+	transform:scale(1.1);
+}
+.service-img > a {
+  display: inline-block;
+  position: relative;
+}
+.service-content {
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 30%;
+  transform: scale(1.5);
+  transition: all 0.4s ease 0s;
+  z-index: 111;
+}
+.single-service-2:hover .service-content{
+	opacity:1;
+	transform:scale(1);
+}
+.service-content h3{
+  font-size: 36px;
+  font-weight: 700;
+  color:#fff;  
+}
+.service-content h4{
+	font-size:28px;
+	color:#fff;
+}
+.service-content a{
+	font-size:18px;
+	color:#fff;
+}
+.service-img > a::before {
+  background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: scale(0.5);
+  transition: all 300ms ease 0s;
+  z-index: 1;
+}
+.single-service-2:hover .service-img > a::before{
+  opacity: 1;
+  transform: scale(1);
+}
+/* -------Home-4---------- */
+.service-area-4{
+	position:relative;
+	border:1px solid #eaeaea;
+}
+.service-wrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.service-wrapper:hover .service-icon{
+box-shadow: 0 0 0 1px #D61D22 inset;	
+}
+.service-icon {
+  border-radius: 100%;
+  box-shadow: 0 0 0 1px #eaeaea inset;
+  color: #d61d22;
+  display: block;
+  flex-shrink: 0;
+  font-size: 30px;
+  width: 72px;
+  height: 72px;
+  line-height: 72px;
+  text-align: center;
+  transition: all 300ms ease 0s;
+}
+.service-info {
+ flex-grow: 1;
+ padding-left: 30px;
+}
+.service-info h4 {
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.service-info p{
+  color: #222;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 0;
+}

@@ -1,0 +1,78 @@
+/* -----------------------------------
+Template:  Galardo
+
+NOTE: This is newslatter style file. All newslatter related style included in this file.
+
+--------------------------------------*/
+.newsletter-area{}
+.newsletter-text{
+  margin-top: 20px;
+}
+.newsletter-text h3 {
+  color: #333333;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+.newsletter-text span{
+  color: #444;
+  font-size: 13px;
+  font-weight: 400;
+} 
+.newsletter-form form {
+    position: relative;
+	color:#333;
+  margin-top: 20px;
+}
+.newsletter-form form input {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #eeeeee;
+    color: #333333;
+    height: 45px;
+    padding: 10px 43px 10px 12px;
+    width: 100%;
+}
+.newsletter-form button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    width: 50px;
+	font-size:18px;
+	color:#069eea;
+	transition:all .3s;
+}
+.newsletter-form button:hover{
+	color:#333;
+}
+.newsletter-icon{
+  margin-top: 20px;
+}
+.newsletter-icon a {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #ececec;
+  color: #666666;
+  display: inline-block;
+  font-size: 16px;
+  height: 45px;
+  line-height: 43px;
+  margin: 0 2px ;
+  text-align: center;
+  width: 45px;
+  transition:all .4s;
+}
+.newsletter-icon a:hover{
+	background:#069eea;
+	color:#fff;
+}
+.newsletter-area-4 .newsletter-form button {
+  color: #D61D22;
+}
+.newsletter-area-4 .newsletter-form button:hover{
+	color:#666;
+}
+.newsletter-area-4 .newsletter-icon a:hover{
+	background:#D61D22;
+}

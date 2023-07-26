@@ -1,0 +1,204 @@
+/* -----------------------------------
+Template:  Galardo
+
+NOTE: This is static-product style file. All static-product related style included in this file.
+
+--------------------------------------*/
+/* -------Home-1---------- */
+.static-product-area{}
+.static-product-image{}
+.static-product-image a{
+	display:block;
+	position:relative;
+	overflow:hidden;
+}
+.static-product-image img{
+	transition:all 3s;
+}
+.static-product-image a:hover img{
+	transform:scale(1.1);
+}
+.static-product-image a:after {
+	background: rgba(255, 255, 255, 0.3) none repeat scroll 0 0;
+	content: "";
+	display: block;
+	height: 96%;
+	left: 2%;
+	opacity: 0;
+	position: absolute;
+	top: 2%;
+	transform: scale(0.5);
+	transition: all 300ms ease 0s;
+	width: 96%;
+}
+.static-product-image a:hover:after{
+	opacity:1;
+	transform:scale(1);
+}
+
+.static-single-product{}
+.static-single-product-img{
+	position:relative;
+}
+.static-single-product-img a{
+	position:relative;
+	display:block;
+}
+span.new {
+	background: #d61d22 none repeat scroll 0 0;
+	color: #ffffff;
+	display: block;
+	font-size: 11px;
+	height: 21px;
+	line-height: 21px;
+	overflow: hidden;
+	padding: 0 9px;
+	position: absolute;
+	text-align: center;
+	text-transform: uppercase;
+	top: 10px;
+	z-index: 1;
+}
+
+.static-single-product-content{
+	background: #f8f8f8 none repeat scroll 0 0;
+	padding: 36px 30px;	
+}
+.static-single-product-content a h3{
+	color: #333333;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 20px;
+	text-transform: uppercase;
+	transition:all .3s;  
+}
+.static-single-product-content a h3:hover{
+	color:#069DEC;
+}
+.static-single-product-content p{
+    color: #555;	
+}
+.static-single-product-content span.static-price {
+  color: #333333;
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.static-single-product-content span.static-del{
+  font-size: 18px;
+  margin-bottom: 0;	
+}
+.static-single-product-icon {
+  overflow: hidden;
+}
+.static-single-product-icon a {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #ececec;
+  border-radius: 100%;
+  color: #666666;
+  display: inline-block;
+  font-size: 14px;
+  height: 38px;
+  line-height: 37px;
+  margin-right: 7px;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+  width: 38px;
+  transition:all .3s;
+}
+.static-single-product-icon a:last-child{
+  margin-right: 0;
+}
+
+.static-single-product-icon a:hover{
+	color:#fff;
+	background:#069EEA;
+	border-color:#069EEA;
+} 
+
+
+.dotted-style .owl-carousel .owl-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+.dotted-style .owl-carousel .owl-nav button {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  border-radius: 100%;
+  color: #aaa;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 26px;
+  line-height: 24px;
+  margin: 0 5px;
+  text-align: center;
+  width: 26px;
+}
+.navi-style{
+	position:relative;
+}
+.navi-style::before {
+    background: #eeeeec none repeat scroll 0 0;
+    bottom: 12px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 38%;
+}
+.navi-style::after {
+    background: #eeeeee none repeat scroll 0 0;
+    bottom: 12px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 15px;
+    width: 38%;
+}
+
+.static-product-area-3 .dotted-style .owl-carousel .owl-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+.static-product-area-3 .dotted-style .owl-carousel .owl-nav button {
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #d7d7d7;
+  border-radius: 100%;
+  color: #b1b1b1;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  height: 26px;
+  line-height: 24px;
+  margin: 0 5px;
+  position: absolute;
+  text-align: center;
+  top: -40px;
+  width: 26px;
+  right:276px;
+}
+.static-product-area-3 .dotted-style .owl-carousel .owl-nav button.owl-next {
+  right: 240px;
+}
+.static-product-area-3 .navi-style::before, .static-product-area-3 .navi-style::after {
+  display: none;
+}
+/* -------Home-3---------- */
+.static-product-area-3 .section-title h3::after {
+  display: none;
+}
+.static-product-area-3 .section-title h3 {
+  margin-top: 22px;
+}
+/* -------Home-4---------- */
+.static-product-area-4 .owl-nav {
+  display: none;
+}
+.static-product-area-4 .static-single-product-icon a:hover {
+  background: #d61d22 none repeat scroll 0 0;
+  border-color: #d61d22;
+}
+

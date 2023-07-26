@@ -1,0 +1,318 @@
+/* -----------------------------------
+Template:  Theme Name
+
+NOTE: This is product style file. All product related style included in this file.
+
+--------------------------------------*/
+/* ------------Home-1------------ */
+.section-title{
+	position:relative;
+	margin-bottom:30px;
+}
+.section-title h3 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
+}
+.section-title h3::after {
+  border-bottom: 2px solid #acacad;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 101px;
+}
+.propular-product-img{
+	overflow:hidden;
+}
+.propular-product-img img{
+	transition:all.4s;
+}
+.propular-product-img a:hover img{
+	transform:scale(1.1)
+}
+.propular-product-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+.feature-product{
+  display: flex;
+}
+.propular-product-image{
+  position:relative;
+  flex-shrink: 0;
+}
+.feature-product .propular-product-image img{
+  width: 110px !important;
+}
+
+
+.propular-product-icon {
+  bottom: 40px;
+  left: 13%;
+  position: absolute;
+  z-index: 2;
+}
+.propular-product-wrapper .propular-product-icon a{
+	background: #ffffff none repeat scroll 0 0;
+	border: 0 none;
+	border-radius: 100%;
+	color: #666666;
+	display: block;
+	float:left;
+	font-size: 14px;
+	height: 38px;
+	line-height: 38px;
+	margin: 0 5px;
+	overflow: hidden;
+	padding: 0;
+	text-align: center;
+	width: 38px;
+	opacity:0;
+	transform: rotateY(90deg); 
+}
+.propular-product-wrapper .propular-product-icon a{
+    opacity: 0;
+    transform: rotateY(-90deg);
+}
+.propular-product-wrapper .propular-product-icon a:hover{
+    background: #069eea none repeat scroll 0 0;
+    border-color: #069eea;
+    color: #ffffff;
+}
+.propular-product-wrapper:hover .propular-product-icon a:nth-child(1){
+animation: 300ms ease 100ms normal forwards 1 running roty;
+}
+.propular-product-wrapper:hover .propular-product-icon a:nth-child(2){
+animation: 300ms ease 200ms normal forwards 1 running roty;
+}
+.propular-product-wrapper:hover .propular-product-icon a:nth-child(3){
+animation: 300ms ease 300ms normal forwards 1 running roty;
+}
+.propular-product-wrapper:hover .propular-product-icon a:nth-child(4){
+animation: 300ms ease 400ms normal forwards 1 running roty;
+}
+@keyframes roty {
+0% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+}
+100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+}
+@keyframes roty {
+0% {
+    opacity: 0;
+    transform: rotateY(-90deg);
+}
+100% {
+    opacity: 1;
+    transform: rotateY(0deg);
+}
+}
+
+.propular-product-info{
+	background:#fff;
+	padding:15px;
+  flex-grow: 1;
+}
+.propular-product-info a h4{
+	color: #222;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 18px;
+	text-transform: uppercase;
+	transition:all .3s;  
+}
+.propular-product-info a h4:hover{
+	color:#069EEA;
+}
+.propular-product-price i {
+    color: #ffa744;
+}
+.propular-product-price i:last-child {
+    color: #777676;
+}
+span.propular-price{
+	color: #333333;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 20px;
+	display:block;  
+} 
+
+/* feature-product-area */
+
+.feature-product-area .feature-title::after {
+	border-bottom: 2px solid #d5d5d5;
+	bottom: 0;
+	content: "";
+	display: block;
+	position: absolute;
+	width: 100px;
+}
+.feature-title{
+  position: relative;
+}
+.feature-title h3 {
+	color: #333333;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	margin: 0 0 13px;
+	text-transform: uppercase;
+  position: relative;
+}
+.propular-product-info.feature-product.col-7 {
+    padding: 0 0 0 20px;
+}
+.propular-product-image.col-3 > a {
+    display: inline-block;
+    position: relative;
+}
+.propular-product-image.col-3 > a::before {
+    background: #333 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity:0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	transition:all .3s;
+	z-index:10;
+}
+.propular-product-wrapper.feature-product:hover .propular-product-image.col-3 > a::before {
+  opacity: 0.3;
+}
+.propular-product-image.col-3 > a::after {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 100%;
+  bottom: 0;
+  box-shadow: 0 0 0 5px rgba(246, 249, 250, 0.3);
+  color: #333333;
+  content: "";
+  font-family: FontAwesome;
+  height: 25px;
+  left: 0;
+  line-height: 23px;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  transform: scale(4);
+  transition: all 0.3s ease 0s;
+  width: 25px;
+  z-index:11
+}
+.propular-product-wrapper.feature-product:hover .propular-product-image.col-3 > a::after{
+	opacity:1;
+	transform:scale(1);
+}
+.feature-product .propular-product-info .title{
+  margin-bottom: 0;
+  margin-top: -8px;
+}
+.feature-product .propular-product-info .title a {
+  color: #222;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: capitalize;
+  transition: all 0.3s ease 0s;
+  display: inline-block;
+  margin-bottom: 3px;
+}
+.feature-product .propular-product-info .title a:hover{
+	color:#069eea;
+}
+.feature-product-price{
+	text-align: left;
+}
+span.propular-price.feature-product-price {
+  color: #333333;
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}
+span.purcent {
+  background: #d61d22 none repeat scroll 0 0;
+  color: #ffffff;
+  font-size: 11px;
+  margin-left: 5px;
+  padding: 1px 3px;
+}
+/* ------------Home-2------------ */
+
+.section-title-2 {
+    position: relative;
+}
+.section-title-2 h3 {
+  color: #333333;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  overflow: hidden;
+  padding: 0 0 13px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.section-title-2 h3::before {
+  border-bottom: 1px solid #d5d5d5;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 55px;	
+}
+.section-title-2 h3:after {
+  border-bottom: 1px solid #d5d5d5;
+  bottom: 3px;
+  content: "";
+  display: block;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 82px;
+}
+.Popular-product-area-2 {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.Popular-product-area-2 .owl-nav {
+  display: none;
+}
+.Popular-product-area-2 .propular-product-image::before {
+    background:rgba(102, 102, 102, 0.23) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+	transition:all .4s;
+}
+.Popular-product-area-2 .propular-product-wrapper:hover .propular-product-image::before{
+	opacity:1;
+}
+/* ------------Home-4------------ */
+
+.feature-product-area-4 .dotted-style-4 .owl-carousel .owl-nav button {
+  top: -40px;
+}
